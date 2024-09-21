@@ -1,0 +1,400 @@
+$filePath = "I:\ASPAC\CLIENT\Terminal001.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal002.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal003.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal004.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal005.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal006.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal007.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal008.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal009.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal010.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal011.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal012.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal013.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal014.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal015.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal016.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal017.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal018.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal019.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal020.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}15'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal021.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal022.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal023.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal024.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal025.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal026.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}13'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal027.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal028.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal029.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal030.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal031.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal032.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}13'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal033.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal034.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal035.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal036.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal037.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal038.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal039.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal040.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}16'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal041.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal042.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal043.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal044.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}17'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal045.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal046.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal047.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal048.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal049.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal050.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal051.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal052.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}12'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal053.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}12'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal054.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}12'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal055.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}12'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal056.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}12'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal057.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}12'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal058.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}12'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal059.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}12'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal060.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}13'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal061.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}13'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal062.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal063.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}13'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal064.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}13'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal065.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}13'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal066.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal067.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}13'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal068.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}13'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal069.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}15'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal070.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}11'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal071.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}15'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal072.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal073.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}16'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal074.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}17'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal075.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal076.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}17'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal077.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}14'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal078.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal079.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
+$filePath = "I:\ASPAC\CLIENT\Terminal080.ini
+$content = Get-Content -Path $filePath | ForEach-Object {
+$_ -replace '(/\[ASPAC\]KYOTEN=)[^\r\n]*', '${1}10'
+}
+$content | Set-Content -Path $filePath
